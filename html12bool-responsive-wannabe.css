@@ -5,17 +5,7 @@
   margin-right: auto;
   margin-top: 100px;
 }
-@media screen and (max-width: 420px) {
 
-  h1 {
-   width: 100%;
-   text-align: center;
- }
-
- body div {
-   font-size: 30px;
- }
-}
 /* BLOCCO LEZIONI */
 #lezioni .row > .left, #lezioni .row > .right{
   width: 50%;
@@ -32,11 +22,6 @@
 #lezioni {
   text-align: center;
 }
- @media screen and (max-width: 420px) {
-   #lezioni {
-     margin-left: auto;
-     margin-right: auto;
-   }
    #lezioni .row > .left, #lezioni .row > .right{
      width: 100%;
      float: none;
@@ -62,21 +47,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 420px) {
 
-  #steps .row > .left,
-  #steps .row > .central,
-  #steps .row > .right {
-    float: none;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#steps img {
-    height: 100px;
-  }
-
-}
 /* BLOCCO PERCHE */
 #why {
   text-align: center;
@@ -93,23 +64,7 @@
   border-radius:50%;
   padding:30px;
 }
-@media screen and (max-width: 420px) {
 
-  #why .row > .first,
-  #why .row > .second,
-  #why .row > .third {
-    width: 100%;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #why .row img {
-    height: 100px;
-    background-color:#428bca;
-    border-radius:50%;
-    padding:30px;
-  }
-}
 /* COMMON */
 [background="grey"]{
   background-color: #f9f9f9;
